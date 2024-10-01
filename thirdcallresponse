@@ -1,0 +1,250 @@
+"products": {
+    "identification": {
+      "data": {
+        "visitorId": "sZI7fdvjfiV1Wljut8Jg",
+        "requestId": "1727622232999.OrsAZr",
+        "browserDetails": {
+          "browserName": "Other",
+          "browserMajorVersion": "",
+          "browserFullVersion": "",
+          "os": "Android",
+          "osVersion": "9",
+          "device": "Generic Smartphone",
+          "userAgent": "Dalvik/2.1.0 (Linux; U; Android 9; Standard PC (i440FX + PIIX, 1996) Build/PI)"
+        },
+        "incognito": false,
+        "ip": "98.122.168.193",
+        "ipLocation": {
+          "accuracyRadius": 10,
+          "latitude": 35.7178,
+          "longitude": -78.8428,
+          "postalCode": "27502",
+          "timezone": "America/New_York",
+          "city": {
+            "name": "Apex"
+          },
+          "country": {
+            "code": "US",
+            "name": "United States"
+          },
+          "continent": {
+            "code": "NA",
+            "name": "North America"
+          },
+          "subdivisions": [
+            {
+              "isoCode": "NC",
+              "name": "North Carolina"
+            }
+          ]
+        },
+        "timestamp": 1727622233009,
+        "time": "2024-09-29T15:03:53Z",
+        "url": "com.fingerprintjs.android.fpjs_pro_demo",
+        "tag": {},
+        "confidence": {
+          "score": 1,
+          "revision": "v1.1"
+        },
+        "visitorFound": false,
+        "firstSeenAt": {
+          "global": "2024-09-29T15:03:53.009Z",
+          "subscription": "2024-09-29T15:03:53.009Z"
+        },
+        "lastSeenAt": {
+          "global": null,
+          "subscription": null
+        }
+      }
+    },
+    "botd": {
+      "data": {
+        "bot": {
+          "result": "notDetected"
+        },
+        "url": "",
+        "ip": "98.122.168.193",
+        "time": "2024-09-29T15:03:53.024Z",
+        "userAgent": "Dalvik/2.1.0 (Linux; U; Android 9; Standard PC (i440FX + PIIX, 1996) Build/PI)",
+        "requestId": "1727622232999.OrsAZr"
+      }
+    },
+    "rootApps": {
+      "data": {
+        "result": false
+      }
+    },
+    "emulator": {
+      "data": {
+        "result": true
+      }
+    },
+    "ipInfo": {
+      "data": {
+        "v4": {
+          "address": "98.122.168.193",
+          "geolocation": {
+            "accuracyRadius": 10,
+            "latitude": 35.7178,
+            "longitude": -78.8428,
+            "postalCode": "27502",
+            "timezone": "America/New_York",
+            "city": {
+              "name": "Apex"
+            },
+            "country": {
+              "code": "US",
+              "name": "United States"
+            },
+            "continent": {
+              "code": "NA",
+              "name": "North America"
+            },
+            "subdivisions": [
+              {
+                "isoCode": "NC",
+                "name": "North Carolina"
+              }
+            ]
+          },
+          "asn": {
+            "asn": "11426",
+            "name": "TWC-11426-CAROLINAS",
+            "network": "98.122.0.0/16"
+          },
+          "datacenter": {
+            "result": false,
+            "name": ""
+          }
+        }
+      }
+    },
+    "ipBlocklist": {
+      "data": {
+        "result": false,
+        "details": {
+          "emailSpam": false,
+          "attackSource": false
+        }
+      }
+    },
+    "tor": {
+      "data": {
+        "result": false
+      }
+    },
+    "vpn": {
+      "data": {
+        "result": true,
+        "confidence": "high",
+        "originTimezone": "America/New_York",
+        "originCountry": "unknown",
+        "methods": {
+          "timezoneMismatch": false,
+          "publicVPN": false,
+          "auxiliaryMobile": true,
+          "osMismatch": false
+        }
+      }
+    },
+    "proxy": {
+      "data": {
+        "result": false
+      }
+    },
+    "incognito": {
+      "data": {
+        "result": false
+      }
+    },
+    "tampering": {
+      "data": {
+        "result": false,
+        "anomalyScore": 0
+      }
+    },
+    "clonedApp": {
+      "data": {
+        "result": false
+      }
+    },
+    "factoryReset": {
+      "data": {
+        "time": "2024-09-29T15:00:57Z",
+        "timestamp": 1727622057
+      }
+    },
+    "jailbroken": {
+      "data": {
+        "result": false
+      }
+    },
+    "frida": {
+      "data": {
+        "result": false
+      }
+    },
+    "privacySettings": {
+      "data": {
+        "result": false
+      }
+    },
+    "virtualMachine": {
+      "data": {
+        "result": false
+      }
+    },
+    "rawDeviceAttributes": {},
+    "highActivity": {
+      "data": {
+        "result": false
+      }
+    },
+    "locationSpoofing": {
+      "data": {
+        "result": false
+      }
+    },
+    "suspectScore": {
+      "data": {
+        "result": 15
+      }
+    },
+    "remoteControl": {
+      "data": {
+        "result": false
+      }
+    },
+    "velocity": {
+      "data": {
+        "distinctIp": {
+          "intervals": {
+            "5m": 1,
+            "1h": 1,
+            "24h": 1
+          }
+        },
+        "distinctLinkedId": {},
+        "distinctCountry": {
+          "intervals": {
+            "5m": 1,
+            "1h": 1,
+            "24h": 1
+          }
+        },
+        "events": {
+          "intervals": {
+            "5m": 1,
+            "1h": 1,
+            "24h": 1
+          }
+        }
+      }
+    },
+    "developerTools": {
+      "data": {
+        "result": false
+      }
+    }
+  }
+}
