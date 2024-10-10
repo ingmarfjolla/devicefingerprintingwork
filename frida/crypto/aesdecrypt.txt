@@ -1,0 +1,11 @@
+{
+  "status": "active",
+  "region": "us",
+  "settings": {
+    "lastKnownMockedLocationsCollectionEnabled": true,
+    "accelerometerSignalEnabled": false,
+    "installedAppsCollectionMode": "all",
+    "gyroscopeSignalEnabled": false
+  },
+  "integrationInfo": []
+}

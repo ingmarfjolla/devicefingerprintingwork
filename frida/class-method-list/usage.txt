@@ -1,0 +1,1 @@
+frida -U -f com.fingerprintjs.android.fpjs_pro_demo -l classmethodlist.js >> output.txt

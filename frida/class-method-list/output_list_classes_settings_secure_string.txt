@@ -1,0 +1,8 @@
+[Standard PC  i440FX   PIIX  1996 ::com.fingerprintjs.android.fpjs_pro_demo ]-> Settings.Secure.getString called with key: accessibility_enabled
+Result: 0
+Settings.Secure.getString called with key: default_input_method
+Result: com.android.inputmethod.latin/.LatinIME
+Settings.Secure.getString called with key: touch_exploration_enabled
+Result: 0
+Settings.Secure.getString called with key: android_id
+Result: 896feed4d218114a

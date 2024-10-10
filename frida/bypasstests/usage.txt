@@ -1,0 +1,11 @@
+frida -U -f com.fingerprintjs.android.playground -l enable_fingerprint_auth.js
+
+^ this is for the free version 
+
+frida -U -f com.fingerprintjs.android.fpjs_pro_demo -l enable_fingerprint.js 
+
+^ for the pro version 
+
+need to learn a bit more on -f VS -n and -F 
+
+-F is if app is running, -f to spawn, -n is just name ? 

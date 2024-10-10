@@ -1,0 +1,34 @@
+~] Loading library: /data/app/com.fingerprintjs.android.fpjs_pro_demo-d6UWSOZCVY_ic5VC8HLm6Q==/lib/x86_64/libjni-helper.so
+[*] Library loaded: /data/app/com.fingerprintjs.android.fpjs_pro_demo-d6UWSOZCVY_ic5VC8HLm6Q==/lib/x86_64/libjni-helper.so
+-------------------------------------------
+[-]Function : Java_com_fingerprintjs_android_fpjs_1pro_1demo_constants_Protected_stringFromJNI
+[-]Address  : 0x73a26d9db250
+
+
+~] Loading library : /data/app/com.fingerprintjs.android.fpjs_pro_demo-d6UWSOZCVY_ic5VC8HLm6Q==/lib/x86_64/libjni-helper.so
+
+-------------------------------------------
+[+] Loaded library: /data/app/com.fingerprintjs.android.fpjs_pro_demo-d6UWSOZCVY_ic5VC8HLm6Q==/lib/x86_64/libjni-helper.so
+[*]Function name: Java_com_fingerprintjs_android_fpjs_1pro_1demo_constants_Protected_stringFromJNI
+[*]Native method address: 0x73a26d8de250
+
+----------------------------------------------------------
+[*]Calling Java_com_fingerprintjs_android_fpjs_1pro_1demo_constants_Protected_stringFromJNI
+[*]Return value is a string: IX5F84LHZhf2InPVd8lU
+https://dashboard.fingerprint.com/signup?ref=fingerprint-android-demo-app
+https://demo.fingerprint.com/api/
+https://demo.fingerprint.com
+
+----------------------------------------------------------
+[*]Calling Java_com_fingerprintjs_android_fpjs_1pro_1demo_constants_Protected_stringFromJNI
+[*]Return value is a string: IX5F84LHZhf2InPVd8lU
+https://dashboard.fingerprint.com/signup?ref=fingerprint-android-demo-app
+https://demo.fingerprint.com/api/
+https://demo.fingerprint.com
+
+----------------------------------------------------------
+[*]Calling Java_com_fingerprintjs_android_fpjs_1pro_1demo_constants_Protected_stringFromJNI
+[*]Return value is a string: IX5F84LHZhf2InPVd8lU
+https://dashboard.fingerprint.com/signup?ref=fingerprint-android-demo-app
+https://demo.fingerprint.com/api/
+https://demo.fingerprint.com
