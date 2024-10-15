@@ -1,27 +1,31 @@
-"products": {
+After installing XPrivacy Lua, heres the reply from the server to fingerprintJS:
+
+
+{
+  "products": {
     "identification": {
       "data": {
-        "visitorId": "sZI7fdvjfiV1Wljut8Jg",
-        "requestId": "1727622232999.OrsAZr",
+        "visitorId": "Yt6yQCPxRI7UvhGUSyDI",
+        "requestId": "1728949473979.votzVm",
         "browserDetails": {
-          "browserName": "Other",
-          "browserMajorVersion": "",
-          "browserFullVersion": "",
+          "browserName": "Android",
+          "browserMajorVersion": "8",
+          "browserFullVersion": "8.1.0",
           "os": "Android",
-          "osVersion": "9",
-          "device": "Generic Smartphone",
-          "userAgent": "Dalvik/2.1.0 (Linux; U; Android 9; Standard PC (i440FX + PIIX, 1996) Build/PI)"
+          "osVersion": "8.1.0",
+          "device": "Standard PC (i440FX + PIIX, 1996",
+          "userAgent": "Dalvik/2.1.0 (Linux; U; Android 8.1.0; Standard PC (i440FX + PIIX, 1996) Build/OPM8.190605.005)"
         },
         "incognito": false,
-        "ip": "98.122.168.193",
+        "ip": "address",
         "ipLocation": {
           "accuracyRadius": 10,
-          "latitude": 35.7178,
-          "longitude": -78.8428,
-          "postalCode": "27502",
+          "latitude": 35.7965,
+          "longitude": -78.7981,
+          "postalCode": "27513",
           "timezone": "America/New_York",
           "city": {
-            "name": "Apex"
+            "name": "Cary"
           },
           "country": {
             "code": "US",
@@ -38,22 +42,22 @@
             }
           ]
         },
-        "timestamp": 1727622233009,
-        "time": "2024-09-29T15:03:53Z",
+        "timestamp": 1728949473989,
+        "time": "2024-10-14T23:44:33Z",
         "url": "com.fingerprintjs.android.fpjs_pro_demo",
         "tag": {},
         "confidence": {
           "score": 1,
           "revision": "v1.1"
         },
-        "visitorFound": false,
+        "visitorFound": true,
         "firstSeenAt": {
-          "global": "2024-09-29T15:03:53.009Z",
-          "subscription": "2024-09-29T15:03:53.009Z"
+          "global": "2024-10-14T19:42:01.538Z",
+          "subscription": "2024-10-14T19:42:01.538Z"
         },
         "lastSeenAt": {
-          "global": null,
-          "subscription": null
+          "global": "2024-10-14T23:43:48.023Z",
+          "subscription": "2024-10-14T23:43:48.023Z"
         }
       }
     },
@@ -63,15 +67,15 @@
           "result": "notDetected"
         },
         "url": "",
-        "ip": "98.122.168.193",
-        "time": "2024-09-29T15:03:53.024Z",
-        "userAgent": "Dalvik/2.1.0 (Linux; U; Android 9; Standard PC (i440FX + PIIX, 1996) Build/PI)",
-        "requestId": "1727622232999.OrsAZr"
+        "ip": "address",
+        "time": "2024-10-14T23:44:33.998Z",
+        "userAgent": "Dalvik/2.1.0 (Linux; U; Android 8.1.0; Standard PC (i440FX + PIIX, 1996) Build/OPM8.190605.005)",
+        "requestId": "1728949473979.votzVm"
       }
     },
     "rootApps": {
       "data": {
-        "result": false
+        "result": true
       }
     },
     "emulator": {
@@ -82,15 +86,15 @@
     "ipInfo": {
       "data": {
         "v4": {
-          "address": "98.122.168.193",
+          "address": "address",
           "geolocation": {
             "accuracyRadius": 10,
-            "latitude": 35.7178,
-            "longitude": -78.8428,
-            "postalCode": "27502",
+            "latitude": 35.7965,
+            "longitude": -78.7981,
+            "postalCode": "27513",
             "timezone": "America/New_York",
             "city": {
-              "name": "Apex"
+              "name": "Cary"
             },
             "country": {
               "code": "US",
@@ -110,7 +114,7 @@
           "asn": {
             "asn": "11426",
             "name": "TWC-11426-CAROLINAS",
-            "network": "98.122.0.0/16"
+            "network": "address"
           },
           "datacenter": {
             "result": false,
@@ -160,7 +164,8 @@
     "tampering": {
       "data": {
         "result": false,
-        "anomalyScore": 0
+        "anomalyScore": 0,
+        "antiDetectBrowser": false
       }
     },
     "clonedApp": {
@@ -170,8 +175,8 @@
     },
     "factoryReset": {
       "data": {
-        "time": "2024-09-29T15:00:57Z",
-        "timestamp": 1727622057
+        "time": "2024-10-13T22:02:47Z",
+        "timestamp": 1728856967
       }
     },
     "jailbroken": {
@@ -207,7 +212,7 @@
     },
     "suspectScore": {
       "data": {
-        "result": 15
+        "result": 27
       }
     },
     "remoteControl": {
@@ -234,9 +239,9 @@
         },
         "events": {
           "intervals": {
-            "5m": 1,
-            "1h": 1,
-            "24h": 1
+            "5m": 2,
+            "1h": 2,
+            "24h": 4
           }
         }
       }
