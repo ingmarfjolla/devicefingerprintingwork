@@ -1,0 +1,417 @@
+11-07 21:19:17.368  1493  5439 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30000000 cmp=com.fingerprintjs.android.fpjs_pro_demo/.MainActivity} from uid 10031
+11-07 21:19:17.395  1493  5439 I ActivityManager: Start proc 17901:com.fingerprintjs.android.fpjs_pro_demo/u0a72 for activity com.fingerprintjs.android.fpjs_pro_demo/.MainActivity
+11-07 21:19:17.448 17901 17901 I LSPosed : Loading modules for com.fingerprintjs.android.fpjs_pro_demo
+11-07 21:19:17.533 17901 17901 I XLua.XCoreStartup: Loaded com.fingerprintjs.android.fpjs_pro_demo:10072
+11-07 21:19:17.533 17901 17901 I LSPosed-Bridge: XLua.XCoreStartup Loaded com.fingerprintjs.android.fpjs_pro_demo:10072
+11-07 21:19:17.535 17901 17901 I XLua.XLua: Message=pkg [com.fingerprintjs.android.fpjs_pro_demo] key [f577dbc0-dd02-4d73-a3d2-eb75ff080dd6]
+11-07 21:19:17.568 17901 17901 I XLua.XLua: Message=pkg [com.fingerprintjs.android.fpjs_pro_demo] uid [10072] hook size [382]
+11-07 21:19:17.577 17901 17901 I XLua.MockPropPacket:  data within => code=8 user=10072 category=com.fingerprintjs.android.fpjs_pro_demo (params) user=10072 category=com.fingerprintjs.android.fpjs_pro_demo onlygetmodifed=true
+11-07 21:19:17.577 17901 17901 I XLua.UserID: Entering Selection Args Generation: flags=0 tostring=  user=10072 category=com.fingerprintjs.android.fpjs_pro_demo code=8 name=null setting=null value=null code=8
+11-07 21:19:17.578  1493  2242 I XLua.MockPropProvider: Entering [getSettingsForPackage] packet= user=0 category=com.fingerprintjs.android.fpjs_pro_demo code=8 name=null setting=null value=null code=8
+11-07 21:19:17.578  1493  2242 I XLua.MockPropProvider: [getSettingsForPackage] db=mock.db user=0 pkg=com.fingerprintjs.android.fpjs_pro_demo all=false
+11-07 21:19:17.583 17901 17901 I XLua.XLua: Message=pkg [com.fingerprintjs.android.fpjs_pro_demo] settings size [85] properties size [0] prop maps size [229]
+11-07 21:19:17.958 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:19:17.958 17901 17901 I zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.translation.ViewTranslationCallback" on path: DexPathList[[zip file "/data/app/com.fingerprintjs.android.fpjs_pro_demo-3VnbRe0L-g1fdrtwhLEynA==/base.apk"],nativeLibraryDirectories=[/data/app/com.fingerprintjs.android.fpjs_pro_demo-3VnbRe0L-g1fdrtwhLEynA==/lib/x86_64, /data/app/com.fingerprintjs.android.fpjs_pro_demo-3VnbRe0L-g1fdrtwhLEynA==/base.apk!/lib/x86_64, /system/lib64, /system/vendor/lib64]]
+11-07 21:19:17.958 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:19:17.958 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:19:17.958 17901 17901 I zygote64: Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.translation.ViewTranslationCallback" on path: DexPathList[[zip file "/data/app/com.fingerprintjs.android.fpjs_pro_demo-3VnbRe0L-g1fdrtwhLEynA==/base.apk"],nativeLibraryDirectories=[/data/app/com.fingerprintjs.android.fpjs_pro_demo-3VnbRe0L-g1fdrtwhLEynA==/lib/x86_64, /data/app/com.fingerprintjs.android.fpjs_pro_demo-3VnbRe0L-g1fdrtwhLEynA==/base.apk!/lib/x86_64, /system/lib64, /system/vendor/lib64]]
+11-07 21:19:17.958 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:19:17.973 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:18.077 17901 17930 I com.fingerprintjs.android.fpjs_pro_demo: android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+11-07 21:19:18.680  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.DISPLAY pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=PPR1.180610.011.N960USQU2CSI1 old=android_x86_64-userdebug 8.1.0 OPM8.190605.005 eng.cw_huang.0622 test-keys function=after
+11-07 21:19:18.689  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.ID pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=PPE1.180610.011 old=OPM8.190605.005 function=after
+11-07 21:19:18.697  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.CPU_ABI pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=arm64-v8a old=x86_64 function=after
+11-07 21:19:18.705  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Build.USER pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=dpi old=cwhuang function=after
+11-07 21:19:18.710  1493  1518 I ActivityManager: Displayed com.fingerprintjs.android.fpjs_pro_demo/.MainActivity: +1s328ms
+11-07 21:19:18.715  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Build.MODEL pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=SM-N960U old=Standard PC (i440FX + PIIX, 1996) function=after
+11-07 21:19:18.756  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.DEVICE pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=crownqItesq old=x86_64 function=after
+11-07 21:19:18.779  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.PRODUCT pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=crownqItesq old=android_x86_64 function=after
+11-07 21:19:18.792  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:19:18.801  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.MANUFACTURER pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=samsung old=QEMU function=after
+11-07 21:19:18.811  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:19:18.821  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.TYPE pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=user old=userdebug function=after
+11-07 21:19:18.834  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.INCREMENTAL pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=N960USQU2CSI1 old=eng.cw_huang.0622 function=after
+11-07 21:19:18.845  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.RELEASE pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=9 old=8.1.0 function=after
+11-07 21:19:18.856  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.BOOTLOADER pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=6 restricted=1 new=N960USQU2CSI1 old=unknown function=after
+11-07 21:19:18.867  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.BOARD pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=2 restricted=1 new=SDM845 old=unknown function=after
+11-07 21:19:18.877  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:18.889  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.CODENAME pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=REL old=REL function=after
+11-07 21:19:18.899  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:19:18.910  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Runtime.availableProcessors pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=8 old=4 function=after
+11-07 21:19:18.921  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.FINGERPRINT pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=samsung/crownqItesq/crownqItesq:9/PPR1.180610.011/N960USQU2CSI1:user/release-keys old=Android-x86/android_x86_64/x86_64:8.1.0/OPM8.190605.005/cw_huang0622:userdebug/test-keys function=after
+11-07 21:19:18.933  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=588410519552 old=11515375 function=after
+11-07 21:19:18.942  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:19:18.951  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.CPU_ABI2 pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=arm64-v8a old= function=after
+11-07 21:19:18.960  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.HOST pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=SWDH7920 old=icm12 function=after
+11-07 21:19:18.967  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:18.977  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.TAGS pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=release-keys old=test-keys function=after
+11-07 21:19:18.986  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.BRAND pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=samsung old=Android-x86 function=after
+11-07 21:19:18.996  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.BASE_OS pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Android old= function=after
+11-07 21:19:19.005  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.HARDWARE pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=qcom old=android_x86_64 function=after
+11-07 21:19:19.015  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.RADIO pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=unknown old=unknown function=after
+11-07 21:19:19.021  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.SECURITY_PATCH pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=2019-09-01 old=2019-06-05 function=after
+11-07 21:19:19.031  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.TIME pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=1567484331 old=1624375205000 function=after
+11-07 21:19:19.040  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.SERIAL pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=RF8K81K25RW old=unknown function=after
+11-07 21:19:19.712  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=588410519552 old=13500847 function=after
+11-07 21:19:19.724  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:19.738  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.PackageManager.queryIntentContentProviders pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=9 restricted=1 function=after
+11-07 21:19:19.750  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:19:19.760  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:19:19.770  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:20.362 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) Runtime.exec(commands) Hook Invoked (string)
+11-07 21:19:20.362 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) (commands) joined to (command) value=stat /data/misc/keychain (string)
+11-07 21:19:20.363 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) Command Interception returned NULL. Looks clean arg=stat /data/misc/keychain (string)
+11-07 21:19:20.363 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) Runtime.exec(commands) Hook Invoked (string)
+11-07 21:19:20.363 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) (commands) joined to (command) value=stat /data/misc/keychain (string)
+11-07 21:19:20.363 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) Command Interception returned NULL. Looks clean arg=stat /data/misc/keychain (string)
+11-07 21:19:20.364 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() hook Invoked (string)
+11-07 21:19:20.364 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() (commands) joined into (command) =stat /data/misc/keychain (string)
+11-07 21:19:20.364 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start Result from (stat /data/misc/keychain) returned NULL. Command looks clean! (string)
+11-07 21:19:20.467 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) Runtime.exec(commands) Hook Invoked (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) (commands) joined to (command) value=stat /data/misc/keychain/serial_blacklist.txt (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) Command Interception returned NULL. Looks clean arg=stat /data/misc/keychain/serial_blacklist.txt (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) Runtime.exec(commands) Hook Invoked (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) (commands) joined to (command) value=stat /data/misc/keychain/serial_blacklist.txt (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) Command Interception returned NULL. Looks clean arg=stat /data/misc/keychain/serial_blacklist.txt (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() hook Invoked (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() (commands) joined into (command) =stat /data/misc/keychain/serial_blacklist.txt (string)
+11-07 21:19:20.468 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start Result from (stat /data/misc/keychain/serial_blacklist.txt) returned NULL. Command looks clean! (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) Runtime.exec(commands) Hook Invoked (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) (commands) joined to (command) value=stat /data/misc/keychain/pubkey_blacklist.txt (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands) Command Interception returned NULL. Looks clean arg=stat /data/misc/keychain/pubkey_blacklist.txt (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) Runtime.exec(commands) Hook Invoked (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) (commands) joined to (command) value=stat /data/misc/keychain/pubkey_blacklist.txt (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.Runtime.exec(commands, envp, dir) Command Interception returned NULL. Looks clean arg=stat /data/misc/keychain/pubkey_blacklist.txt (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() hook Invoked (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() (commands) joined into (command) =stat /data/misc/keychain/pubkey_blacklist.txt (string)
+11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start Result from (stat /data/misc/keychain/pubkey_blacklist.txt) returned NULL. Command looks clean! (string)
+11-07 21:19:20.720  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Intercept.System.getProperty(string) pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:20.734  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.InputDevice.getVendorId pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=0 old=2 function=after
+11-07 21:19:20.750  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:20.761  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:19:20.781  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.InputDevice.getName pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=eSOJpazn-bAs4FwOB old=Android Power Button function=after
+11-07 21:19:20.793  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.ActivityManager.getMemoryInfo pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=total=587 avail=548 old=N/A function=after
+11-07 21:19:20.800  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.SensorManager.getSensorList pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 function=after
+11-07 21:19:20.805 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.VPN/NetworkInterface.getName VPN Interface Spoofing... (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.806 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.807 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.807 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.807 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.807 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.807 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.807 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.808 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.808 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.808 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.808  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:20.808 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.808 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.808 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.809 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.810 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.811 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.812 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.813 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.814 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Cleaning out Array (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.list/Drivers Setting Filtered Results (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Cleaning out File Array (string)
+11-07 21:19:20.815 17901 17968 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.File.listFiles/Drivers Setting Filtered Results (string)
+11-07 21:19:20.834 17901 17958 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.ContentResolver.query26/gsf_id GOOGLE SERVICES FRAMEWORK ID (string)
+11-07 21:19:20.834 17901 17958 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.ContentResolver.query1/gsf_id GOOGLE SERVICES FRAMEWORK ID (string)
+11-07 21:19:20.835 17901 17958 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.SettingsSecure.getString/android_id ANDROID ID SPOOFED (string)
+11-07 21:19:21.723  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.TimeZone.getDefault pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=GMT+0 old=N/A function=after
+11-07 21:19:21.746  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.InputDevice.getVendorId pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=0 old=1 function=after
+11-07 21:19:21.764  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.VPN/NetworkInterface.getName pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.778  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.TimeZone.getDisplayName pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Greenwich Mean Time old=Greenwich Mean Time function=after
+11-07 21:19:21.790  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.ContentResolver.query26/gsf_id pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 function=after
+11-07 21:19:21.796  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.TelephonyManager.getPhoneType pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=2 old=1 function=after
+11-07 21:19:21.802  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.ContentResolver.query1/gsf_id pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.808  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.SensorManager.getSensorList pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.814  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.TelephonyManager.getNetworkCountryIso pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=IS old= function=after
+11-07 21:19:21.819  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:21.825  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.TelephonyManager.getSimCountryIso pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=IS old= function=after
+11-07 21:19:21.831  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.TimeZone.getID pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Atlantic/Reykjavik old=GMT+0 function=after
+11-07 21:19:21.837  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Intercept.System.getProperty(string) pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.843  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.File.list/Drivers pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.849  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:21.855  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.PackageManager.getInstalledApplications pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=4 restricted=1 function=after
+11-07 21:19:21.861  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.SettingsSecure.getString/android_id pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.866  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.File.listFiles/Drivers pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+11-07 21:19:21.873  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.InputDevice.getName pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=2 restricted=1 new=5JjIh-S7dEz old=AT Translated Set 2 keyboard function=after
+11-07 21:19:21.879  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:19:21.885  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Runtime.availableProcessors pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=8 old=4 function=after
+11-07 21:19:22.737  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:22.750  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:23.747  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=588410519552 old=22469568 function=after
+11-07 21:19:23.761  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:23.772  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:19:23.784  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:19:23.795  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:19:23.807  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:23.818  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:19:23.837 17901 17976 D ProfileInstaller: Skipping profile installation for com.fingerprintjs.android.fpjs_pro_demo
+11-07 21:19:24.754  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:24.772  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:25.101 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.159  1353  1353 D SurfaceFlinger: duplicate layer name: changing com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity to com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity#1
+11-07 21:19:25.161 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.202 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.274 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.297 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.298 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.299 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.300 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.301 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.328 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.342 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.343 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.344 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.350 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.352 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.353 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.354 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.355 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.366 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:19:25.430 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.444 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.449 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.452 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.453 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.455 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.462 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.505 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.519 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.520 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.527 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.528 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.528 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.544  1353  1353 D SurfaceFlinger: duplicate layer name: changing com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity to com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity#1
+11-07 21:19:25.546 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.560 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.561 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 4 lines
+11-07 21:19:25.574  1353  1353 D SurfaceFlinger: duplicate layer name: changing com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity to com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity#2
+11-07 21:19:25.767  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=588410519552 old=25445040 function=after
+11-07 21:19:25.779  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:25.791  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:19:25.801  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:19:25.807  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:19:25.813  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:25.821  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:19:26.779  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:26.792  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:28.267  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:28.276  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:29.565  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:29.575  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:30.862  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:30.872  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:32.160  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:32.177  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:33.474  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=588410519552 old=22664335 function=after
+11-07 21:19:33.484  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:33.493  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:19:33.502  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:34.765  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:34.774  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:36.073  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:36.087  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:37.361  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:37.372  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:38.665  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:38.675  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:39.379 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 13 lines
+11-07 21:19:39.967  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:39.986  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:41.264  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:41.275  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:42.562  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:42.571  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:43.859  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:43.875  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:45.172  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:45.184  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:46.465  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:46.482  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:47.763  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:47.773  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=Iceland old=US function=after
+11-07 21:19:49.060  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:49.068  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:50.369  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:50.377  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:51.666  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:51.683  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:52.964  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:52.974  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:54.261  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:54.271  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:55.558  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:55.567  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:56.868  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:56.877  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:58.164  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:58.173  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:19:59.463  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:19:59.472  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:00.769  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:00.779  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:02.068  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:02.079  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:03.372  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:03.382  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:04.672  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:04.681  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:05.961  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:05.971  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:07.258  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:07.268  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:08.567  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:08.578  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:09.871  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:09.881  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:11.162  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:11.171  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:12.466  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:12.477  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:13.768  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:13.785  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:15.066  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:15.076  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:16.363  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:16.374  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:17.661  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:17.679  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:18.958  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:18.981  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:19.025 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 19 lines
+11-07 21:20:20.276  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:20.291  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:20.768 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.790 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.828 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.830 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.853  1353  1353 D SurfaceFlinger: duplicate layer name: changing com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity to com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity#1
+11-07 21:20:20.856 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.894 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.896 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.898 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.900 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.905 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.906 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.907 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.909 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.929 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.938 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.941 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.943 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.943 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.949 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:20.950 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.396 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.422 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.443 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.455 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.467 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.475 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.489 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.498 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.510 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.530 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 2 lines
+11-07 21:20:21.564  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=588410519552 old=21999264 function=after
+11-07 21:20:21.576  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:21.587 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 5 lines
+11-07 21:20:21.587  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:20:21.594  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:20:21.597 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 5 lines
+11-07 21:20:21.603 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 1 line
+11-07 21:20:21.603  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:20:21.606 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 5 lines
+11-07 21:20:21.608 17901 17901 I chatty  : uid=10072(com.fingerprintjs.android.fpjs_pro_demo) identical 5 lines
+11-07 21:20:21.610  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:21.616  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:20:21.769  1353  1353 D SurfaceFlinger: duplicate layer name: changing com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity to com.fingerprintjs.android.fpjs_pro_demo/com.fingerprintjs.android.fpjs_pro_demo.MainActivity#2
+11-07 21:20:22.585  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:22.598  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:20:22.610  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 21:20:22.620  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=1 restricted=1 new=Iceland old=US function=after
+11-07 21:20:22.630  1493  5523 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 21:20:23.601  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=588410519552 old=23501263 function=after
+11-07 21:20:23.622  1493  1951 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:23.643  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 21:20:23.657  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:24.599  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+11-07 21:20:24.608  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=Iceland old=US function=after
+11-07 21:20:25.719  1493  5439 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 new=is-IS old=en-US function=a

@@ -1,0 +1,129 @@
+************************************
+Device ID stuff
+11-07 20:52:45.150 16274 16317 I XLua.LuaLog: Log com.fingerprintjs.android.playground:10106 PrivacyEx.ContentResolver.query26/gsf_id GOOGLE SERVICES FRAMEWORK ID (string)
+11-07 20:52:45.150 16274 16317 I XLua.LuaLog: Log com.fingerprintjs.android.playground:10106 PrivacyEx.ContentResolver.query1/gsf_id GOOGLE SERVICES FRAMEWORK ID (string)
+11-07 20:52:45.155 16274 16317 I XLua.LuaLog: Log com.fingerprintjs.android.playground:10106 PrivacyEx.SettingsSecure.getString/android_id ANDROID ID SPOOFED (string)
+11-07 20:52:46.013  1493  3567 I XLua.ReportCommand: Hook PrivacyEx.InputDevice.getVendorId pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=0 old=1 function=after
+
+11-07 20:52:46.085  1493  4991 I XLua.ReportCommand: Hook PrivacyEx.SettingsSecure.getString/android_id pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 function=after
+
+it spoofs android id, spoofs GSF, can't find media DRM id. GSF is also intermittent and sometimes doesn't work
+*************************************
+
+
+Display stuff is throwing errors: 
+11-07 19:49:02.306  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Display/Resources.getDisplayMetrics pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=3100x1400 old=3100x1400 function=after
+11-07 19:49:02.410 15070 15070 I XLua.XParam: Binder Interface:android.hardware.display.IDisplayManager <- heres the call 
+11-07 19:49:02.322  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+11-07 19:48:57.841  1493  5072 I XLua.ReportCommand: Hook PrivacyEx.Build.DISPLAY pkg=com.fingerprintjs.android.playground:10106 event=use duration=1 restricted=1 new=PPR1.180610.011.N960USQU2CSI1 old=android_x86_64-userdebug 8.1.0 OPM8.190605.005 eng.cw_huang.0622 test-keys function=after
+11-07 20:52:42.977  1493  1889 I XLua.ReportCommand: Hook PrivacyEx.Display/Display.getRealSize pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=3100x1400 old=N/A function=after
+
+
+11-07 19:49:02.913  1493  1558 I InputDispatcher: Dropping event because there is no touchable window at (870, 228).
+11-07 19:49:02.920  1493  1558 I InputDispatcher: Dropping event because there is no touchable window at (920, 234).
+11-07 19:49:02.926  1493  1558 I InputDispatcher: Dropping event because there is no touchable window at (956, 240).
+11-07 19:49:02.934  1493  1558 I InputDispatcher: Dropping event because there is no touchable window at (1006, 244).
+
+<- errors from fingerprintJS. Not sure which functions are failing, probably one of the ones in here: https://github.com/fingerprintjs/fingerprintjs-android/blob/main/fingerprint/src/main/java/com/fingerprintjs/android/fingerprint/info_providers/SettingsInfoProvider.kt
+
+
+Location stuff is correctly spoofed and found: 
+11-07 19:49:02.314  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.getCountry pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=Iceland old=US function=after
+This throws some stuff about the VPN though, will show in the new http proxy logs 
+11-07 19:48:57.965  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Locale.toLanguageTag pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=is-IS old=en-US function=after
+
+
+Ram and memory working:
+11-07 19:49:02.297  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Runtime.maxMemory pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=630286450688 old=201326592 function=after
+11-07 19:49:02.269  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Runtime.totalMemory pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=588410519552 old=15321072 function=after
+
+<- the UI is still glitchy and values set in settings don't always take effect 
+
+
+
+input devices:
+11-07 21:13:25.040  1493  4724 I XLua.ReportCommand: Hook PrivacyEx.InputDevice.getName pkg=com.fingerprintjs.android.playground:10106 event=use duration=2 restricted=1 new=5JjIh-S7dEz old=AT Translated Set 2 keyboard function=after <- this works if you look in the input devices tab of the UI
+
+
+
+Build stuff:
+
+
+11-07 19:48:58.080  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.TIME pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=1567484331 old=1624375205000 function=after <- build time working, but doesn't show in UI
+11-07 19:48:58.087  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.SERIAL pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=RF8K81K25RW old=unknown function=after <- 
+
+
+Radio:
+11-07 19:48:58.066  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.RADIO pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=unknown old=unknown function=after <- when did they call radio? 
+
+Securtiy patch?:
+11-07 19:48:58.074  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.SECURITY_PATCH pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=2019-09-01 old=2019-06-05 function=after
+
+Hardware/build: 
+
+11-07 19:48:58.060  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.HARDWARE pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=qcom old=android_x86_64 function=after <- correctly spoofs 
+11-07 19:48:58.040  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.BRAND pkg=com.fingerprintjs.android.playground:10106 event=use duration=3 restricted=1 new=samsung old=Android-x86 function=after <- brand correct
+11-07 19:48:57.909  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Build.MANUFACTURER pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=samsung old=QEMU function=after <- manuifactuerer correct 
+11-07 19:48:58.033  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.TAGS pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=release-keys old=test-keys function=after
+11-07 19:48:58.019  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.HOST pkg=com.fingerprintjs.android.playground:10106 event=use duration=4 restricted=1 new=SWDH7920 old=icm12 function=after
+11-07 19:48:57.992  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.FINGERPRINT pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=samsung/crownqItesq/crownqItesq:9/PPR1.180610.011/N960USQU2CSI1:user/release-keys old=Android-x86/android_x86_64/x86_64:8.1.0/OPM8.190605.005/cw_huang0622:userdebug/test-keys function=after <- build fingerprint correctly spoofed 
+11-07 19:48:57.958  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.BOARD pkg=com.fingerprintjs.android.playground:10106 event=use duration=3 restricted=1 new=SDM845 old=unknown function=after
+11-07 19:48:57.951  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.BOOTLOADER pkg=com.fingerprintjs.android.playground:10106 event=use duration=8 restricted=1 new=N960USQU2CSI1 old=unknown function=after
+11-07 19:48:57.924  1493  5072 I XLua.ReportCommand: Hook PrivacyEx.Build.TYPE pkg=com.fingerprintjs.android.playground:10106 event=use duration=1 restricted=1 new=user old=userdebug function=after
+11-07 19:48:57.896  1493  5072 I XLua.ReportCommand: Hook PrivacyEx.Build.PRODUCT pkg=com.fingerprintjs.android.playground:10106 event=use duration=1 restricted=1 new=crownqItesq old=android_x86_64 function=after
+11-07 19:48:57.889  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Build.DEVICE pkg=com.fingerprintjs.android.playground:10106 event=use duration=2 restricted=1 new=crownqItesq old=x86_64 function=after
+11-07 19:48:57.883  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Build.MODEL pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=SM-N960U old=Standard PC (i440FX + PIIX, 1996) function=after
+11-07 19:48:57.874  1493  2553 I XLua.ReportCommand: Hook PrivacyEx.Build.USER pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=dpi old=cwhuang function=after
+
+CPU:
+11-07 19:48:58.013  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Build.CPU_ABI2 pkg=com.fingerprintjs.android.playground:10106 event=use duration=2 restricted=1 new=arm64-v8a old= function=after <- oddly enough this shows arm, but in the UI it still shows x86. Some mismatch happening somewher
+11-07 19:48:57.986  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Runtime.availableProcessors pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=8 old=4 function=after <- available processors, IE core count is whats in the Ui and this is correct 
+11-07 19:48:57.864  1493  5072 I XLua.ReportCommand: Hook PrivacyEx.Build.CPU_ABI pkg=com.fingerprintjs.android.playground:10106 event=use duration=2 restricted=1 new=arm64-v8a old=x86_64 function=after
+
+Sensors:
+We have to modify these to return some sort of sensors, it looks like it blocks access and returns a null list but thats it :
+11-07 20:52:46.062  1493  4991 I XLua.ReportCommand: Hook PrivacyEx.SensorManager.getSensorList pkg=com.fingerprintjs.android.playground:10106 event=use duration=1 restricted=1 function=after
+fingerprint sensor finding is also nonexistent
+
+
+Operating System:
+11-07 19:48:58.053  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.BASE_OS pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=Android old= function=after
+
+Getting applications:
+11-07 20:52:42.936  1493  4991 I XLua.ReportCommand: Hook PrivacyEx.PackageManager.queryIntentContentProviders pkg=com.fingerprintjs.android.playground:10106 event=use duration=4 restricted=1 function=after <- it can stop applications from loading, but doesn't seem to load the fake applications
+
+
+Reflection to look at later:
+
+11-07 19:49:01.965 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.966 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.966 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.966 15070 15070 I XLua.XParam: Binder Interface:android.hardware.display.IDisplayManager
+11-07 19:49:01.966 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.966 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.970 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.970 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.970 15070 15070 I XLua.XParam: Binder Interface:android.hardware.display.IDisplayManager
+11-07 19:49:01.970 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.970 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.971 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+
+11-07 19:49:01.951 15070 15070 I XLua.XParam: Binder Interface:android.view.autofill.IAutoFillManager
+11-07 19:49:01.951 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.951 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.952 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.952 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.952 15070 15070 I XLua.XParam: Binder Interface:android.app.IActivityManager
+11-07 19:49:01.952 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.952 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:49:01.953 15070 15070 I XLua.rootbox.xReflectMethod: Class exists was able to reflect: android.os.BinderProxy
+11-07 19:49:01.953 15070 15070 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+
+11-07 19:48:58.870 15070 15107 I XLua.rootbox.xReflectMethod: Found Method via Reflect: getInterfaceDescriptor => android.os.BinderProxy
+11-07 19:48:58.870 15070 15107 I XLua.XParam: Binder Interface:android.content.IContentProvider
+11-07 19:48:58.870  1493  5072 I XLua.ReportCommand: Hook PrivacyEx.PackageManager.queryIntentContentProviders pkg=com.fingerprintjs.android.playground:10106 event=use duration=1 restricted=1 function=after
+
+
+hmm?:
+11-07 19:48:57.972  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.Version.CODENAME pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=REL old=REL function=after
+11-07 19:48:57.932  1493  5072 I XLua.ReportCommand: Hook PrivacyEx.Version.INCREMENTAL pkg=com.fingerprintjs.android.playground:10106 event=use duration=0 restricted=1 new=N960USQU2CSI1 old=eng.cw_huang.0622 function=after
