@@ -1,0 +1,3 @@
+adb logcat | grep "fingerprint" 
+
+or just do logcat and grab everything.

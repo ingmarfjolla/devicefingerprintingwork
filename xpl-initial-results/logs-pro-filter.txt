@@ -16,3 +16,7 @@ looks like these are a part of this? : https://github.com/TaylorTaylorSwift/Revo
 11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() hook Invoked (string)
 11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start ProcessBuilder.start() (commands) joined into (command) =stat /data/misc/keychain/pubkey_blacklist.txt (string)
 11-07 21:19:20.569 17901 17950 I XLua.LuaLog: Log com.fingerprintjs.android.fpjs_pro_demo:10072 PrivacyEx.Intercept.ProcessBuilder.start Result from (stat /data/misc/keychain/pubkey_blacklist.txt) returned NULL. Command looks clean! (string)
+
+VPN:
+11-07 21:19:21.764  1493  1561 I XLua.ReportCommand: Hook PrivacyEx.VPN/NetworkInterface.getName pkg=com.fingerprintjs.android.fpjs_pro_demo:10072 event=use duration=0 restricted=1 function=after
+
