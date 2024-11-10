@@ -1,0 +1,2 @@
+- does not detect VM in the browser pro demo
+- no red flags raised in the output for the mobile simulator (neither on x86 or M1)
