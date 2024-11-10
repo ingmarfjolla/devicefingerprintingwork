@@ -1,0 +1,537 @@
+{
+  "requestId": "1731282829962.REDEw0",
+  "browserName": "Firefox",
+  "browserVersion": "115.0",
+  "confidence": {
+    "revision": "v1.1",
+    "score": 1
+  },
+  "device": "Other",
+  "firstSeenAt": {
+    "global": "2024-11-10T23:53:49.97Z",
+    "subscription": "2024-11-10T23:53:49.97Z"
+  },
+  "incognito": true,
+  "ip": "185.220.101.88",
+  "lastSeenAt": {
+    "global": null,
+    "subscription": null
+  },
+  "meta": {
+    "version": "v1.1.2926+746ec5dcf"
+  },
+  "os": "Windows",
+  "osVersion": "10",
+  "visitorFound": false,
+  "visitorId": "bMMHPdLQTBsRDQ82supz",
+  "cacheHit": false
+}
+
+{
+    "products": {
+      "identification": {
+        "data": {
+          "visitorId": "bMMHPdLQTBsRDQ82supz",
+          "requestId": "1731282829962.REDEw0",
+          "browserDetails": {
+            "browserName": "Firefox",
+            "browserMajorVersion": "115",
+            "browserFullVersion": "115.0",
+            "os": "Windows",
+            "osVersion": "10",
+            "device": "Other",
+            "userAgent": "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0"
+          },
+          "incognito": true,
+          "ip": "185.220.101.88",
+          "ipLocation": {
+            "accuracyRadius": 200,
+            "latitude": 52.6171,
+            "longitude": 13.1207,
+            "postalCode": "14621",
+            "timezone": "Europe/Berlin",
+            "city": {
+              "name": "Brandenburg"
+            },
+            "country": {
+              "code": "DE",
+              "name": "Germany"
+            },
+            "continent": {
+              "code": "EU",
+              "name": "Europe"
+            },
+            "subdivisions": [
+              {
+                "isoCode": "BB",
+                "name": "Brandenburg"
+              }
+            ]
+          },
+          "timestamp": 1731282829970,
+          "time": "2024-11-10T23:53:49Z",
+          "url": "https://demo.fingerprint.com/playground",
+          "tag": {},
+          "confidence": {
+            "score": 1,
+            "revision": "v1.1"
+          },
+          "visitorFound": false,
+          "firstSeenAt": {
+            "global": "2024-11-10T23:53:49.97Z",
+            "subscription": "2024-11-10T23:53:49.97Z"
+          },
+          "lastSeenAt": {
+            "global": null,
+            "subscription": null
+          }
+        }
+      },
+      "botd": {
+        "data": {
+          "bot": {
+            "result": "notDetected"
+          },
+          "url": "https://demo.fingerprint.com/playground",
+          "ip": "185.220.101.88",
+          "time": "2024-11-10T23:53:50.027Z",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/115.0",
+          "requestId": "1731282829962.REDEw0"
+        }
+      },
+      "rootApps": {
+        "data": {
+          "result": false
+        }
+      },
+      "emulator": {
+        "data": {
+          "result": false
+        }
+      },
+      "ipInfo": {
+        "data": {
+          "v4": {
+            "address": "185.220.101.88",
+            "geolocation": {
+              "accuracyRadius": 200,
+              "latitude": 52.6171,
+              "longitude": 13.1207,
+              "postalCode": "14621",
+              "timezone": "Europe/Berlin",
+              "city": {
+                "name": "Brandenburg"
+              },
+              "country": {
+                "code": "DE",
+                "name": "Germany"
+              },
+              "continent": {
+                "code": "EU",
+                "name": "Europe"
+              },
+              "subdivisions": [
+                {
+                  "isoCode": "BB",
+                  "name": "Brandenburg"
+                }
+              ]
+            },
+            "asn": {
+              "asn": "60729",
+              "name": "Stiftung Erneuerbare Freiheit",
+              "network": "185.220.101.0/24"
+            },
+            "datacenter": {
+              "result": true,
+              "name": "relayon.org"
+            }
+          }
+        }
+      },
+      "ipBlocklist": {
+        "data": {
+          "result": false,
+          "details": {
+            "emailSpam": false,
+            "attackSource": false
+          }
+        }
+      },
+      "tor": {
+        "data": {
+          "result": true
+        }
+      },
+      "vpn": {
+        "data": {
+          "result": true,
+          "confidence": "high",
+          "originTimezone": "Atlantic/Reykjavik",
+          "originCountry": "unknown",
+          "methods": {
+            "timezoneMismatch": true,
+            "publicVPN": true,
+            "auxiliaryMobile": false,
+            "osMismatch": false
+          }
+        }
+      },
+      "proxy": {
+        "data": {
+          "result": false
+        }
+      },
+      "incognito": {
+        "data": {
+          "result": true
+        }
+      },
+      "tampering": {
+        "data": {
+          "result": false,
+          "anomalyScore": 0.4094,
+          "antiDetectBrowser": false
+        }
+      },
+      "clonedApp": {
+        "data": {
+          "result": false
+        }
+      },
+      "factoryReset": {
+        "data": {
+          "time": "1970-01-01T00:00:00Z",
+          "timestamp": 0
+        }
+      },
+      "jailbroken": {
+        "data": {
+          "result": false
+        }
+      },
+      "frida": {
+        "data": {
+          "result": false
+        }
+      },
+      "privacySettings": {
+        "data": {
+          "result": true
+        }
+      },
+      "virtualMachine": {
+        "data": {
+          "result": false
+        }
+      },
+      "rawDeviceAttributes": {
+        "data": {
+          "architecture": {
+            "value": 255
+          },
+          "audio": {
+            "value": -2
+          },
+          "canvas": {
+            "value": {
+              "Geometry": "unstable",
+              "Text": "unstable",
+              "Winding": true
+            }
+          },
+          "colorDepth": {
+            "value": 24
+          },
+          "colorGamut": {
+            "value": "srgb"
+          },
+          "contrast": {
+            "value": 0
+          },
+          "cookiesEnabled": {
+            "value": true
+          },
+          "cpuClass": {},
+          "deviceMemory": {},
+          "domBlockers": {},
+          "emoji": {
+            "value": {
+              "bottom": 27,
+              "font": "serif",
+              "height": 19,
+              "left": 8,
+              "right": 1288,
+              "top": 8,
+              "width": 1280,
+              "x": 8,
+              "y": 8
+            }
+          },
+          "fontPreferences": {
+            "value": {
+              "apple": 146,
+              "default": 146,
+              "min": 10,
+              "mono": 119,
+              "sans": 144,
+              "serif": 146,
+              "system": 144
+            }
+          },
+          "fonts": {
+            "value": []
+          },
+          "forcedColors": {
+            "value": false
+          },
+          "hardwareConcurrency": {
+            "value": 2
+          },
+          "hdr": {
+            "value": false
+          },
+          "indexedDB": {
+            "value": true
+          },
+          "invertedColors": {},
+          "languages": {
+            "value": [
+              [
+                "en-US"
+              ],
+              [
+                "en-US",
+                "en"
+              ]
+            ]
+          },
+          "localStorage": {
+            "value": true
+          },
+          "math": {
+            "value": "5f030fa7d2e5f9f757bfaf81642eb1a6"
+          },
+          "mathML": {
+            "value": {
+              "bottom": 27,
+              "font": "serif",
+              "height": 19,
+              "left": 8,
+              "right": 275,
+              "top": 8,
+              "width": 267,
+              "x": 8,
+              "y": 8
+            }
+          },
+          "monochrome": {
+            "value": 0
+          },
+          "openDatabase": {
+            "value": false
+          },
+          "osCpu": {
+            "value": "Linux x86_64"
+          },
+          "pdfViewerEnabled": {
+            "value": true
+          },
+          "platform": {
+            "value": "Linux x86_64"
+          },
+          "plugins": {
+            "value": [
+              {
+                "description": "Portable Document Format",
+                "mimeTypes": [
+                  {
+                    "suffixes": "pdf",
+                    "type": "application/pdf"
+                  },
+                  {
+                    "suffixes": "pdf",
+                    "type": "text/pdf"
+                  }
+                ],
+                "name": "PDF Viewer"
+              },
+              {
+                "description": "Portable Document Format",
+                "mimeTypes": [
+                  {
+                    "suffixes": "pdf",
+                    "type": "application/pdf"
+                  },
+                  {
+                    "suffixes": "pdf",
+                    "type": "text/pdf"
+                  }
+                ],
+                "name": "Chrome PDF Viewer"
+              },
+              {
+                "description": "Portable Document Format",
+                "mimeTypes": [
+                  {
+                    "suffixes": "pdf",
+                    "type": "application/pdf"
+                  },
+                  {
+                    "suffixes": "pdf",
+                    "type": "text/pdf"
+                  }
+                ],
+                "name": "Chromium PDF Viewer"
+              },
+              {
+                "description": "Portable Document Format",
+                "mimeTypes": [
+                  {
+                    "suffixes": "pdf",
+                    "type": "application/pdf"
+                  },
+                  {
+                    "suffixes": "pdf",
+                    "type": "text/pdf"
+                  }
+                ],
+                "name": "Microsoft Edge PDF Viewer"
+              },
+              {
+                "description": "Portable Document Format",
+                "mimeTypes": [
+                  {
+                    "suffixes": "pdf",
+                    "type": "application/pdf"
+                  },
+                  {
+                    "suffixes": "pdf",
+                    "type": "text/pdf"
+                  }
+                ],
+                "name": "WebKit built-in PDF"
+              }
+            ]
+          },
+          "privateClickMeasurement": {},
+          "reducedMotion": {
+            "value": false
+          },
+          "screenFrame": {
+            "value": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "screenResolution": {
+            "value": [
+              600,
+              1200
+            ]
+          },
+          "sessionStorage": {
+            "value": true
+          },
+          "timezone": {
+            "value": "Atlantic/Reykjavik"
+          },
+          "touchSupport": {
+            "value": {
+              "maxTouchPoints": 0,
+              "touchEvent": false,
+              "touchStart": false
+            }
+          },
+          "vendor": {
+            "value": ""
+          },
+          "vendorFlavors": {
+            "value": []
+          },
+          "webGlBasics": {
+            "value": {
+              "renderer": "Mozilla",
+              "rendererUnmasked": "",
+              "shadingLanguageVersion": "WebGL GLSL ES 1.0",
+              "vendor": "Mozilla",
+              "vendorUnmasked": "",
+              "version": "WebGL 1.0"
+            }
+          },
+          "webGlExtensions": {
+            "value": {
+              "contextAttributes": "48e630ae802ba2dc7ed36e8728edf4fc",
+              "extensionParameters": "ed8d3e82a60c625160280bcafc25de88",
+              "extensions": "644e03385da8b95a3108f66f12c4f10c",
+              "parameters": "7988bc1d8cd63a841c7978e785af7e94",
+              "shaderPrecisions": "1aabf55167f5f14457db90ec2b1a88f0",
+              "unsupportedExtensions": []
+            }
+          }
+        }
+      },
+      "highActivity": {
+        "data": {
+          "result": false
+        }
+      },
+      "locationSpoofing": {
+        "data": {
+          "result": false
+        }
+      },
+      "suspectScore": {
+        "data": {
+          "result": 31
+        }
+      },
+      "remoteControl": {
+        "data": {
+          "result": false
+        }
+      },
+      "velocity": {
+        "data": {
+          "distinctIp": {
+            "intervals": {
+              "5m": 1,
+              "1h": 1,
+              "24h": 1
+            }
+          },
+          "distinctLinkedId": {},
+          "distinctCountry": {
+            "intervals": {
+              "5m": 1,
+              "1h": 1,
+              "24h": 1
+            }
+          },
+          "events": {
+            "intervals": {
+              "5m": 1,
+              "1h": 1,
+              "24h": 1
+            }
+          },
+          "ipEvents": {
+            "intervals": {
+              "5m": 1,
+              "1h": 1,
+              "24h": 1
+            }
+          },
+          "distinctIpByLinkedId": {},
+          "distinctVisitorIdByLinkedId": {}
+        }
+      },
+      "developerTools": {
+        "data": {
+          "result": false
+        }
+      }
+    }
+  }
