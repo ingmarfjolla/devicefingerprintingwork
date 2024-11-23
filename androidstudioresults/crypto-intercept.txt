@@ -1,0 +1,366 @@
+/frida/crypto$ frida -U -f com.fingerprintjs.android.fpjs_pro_demo -l crypto_interceptor.js 
+     ____
+    / _  |   Frida 16.5.2 - A world-class dynamic instrumentation toolkit
+   | (_| |
+    > _  |   Commands:
+   /_/ |_|       help      -> Displays the help system
+   . . . .       object?   -> Display information about 'object'
+   . . . .       exit/quit -> Exit
+   . . . .
+   . . . .   More info at https://frida.re/docs/home/
+   . . . .
+   . . . .   Connected to Android Emulator 5554 (id=emulator-5554)
+Spawning `com.fingerprintjs.android.fpjs_pro_demo`...                   
+---
+Capturing Android app...
+[*] Java available
+Capturing setup completed
+---
+Spawned `com.fingerprintjs.android.fpjs_pro_demo`. Resuming main thread!
+[Android Emulator 5554::com.fingerprintjs.android.fpjs_pro_demo ]-> [*] Module attached: javax.crypto.KeyGenerator
+[*] Module attached: java.security.KeyPairGenerator
+[*] Module attached: javax.crypto.spec.SecretKeySpec
+[*] Module attached: java.security.MessageDigest
+[*] Module attached: javax.crypto.SecretKeyFactory
+[*] Module attached: java.security.Signature
+[*] Module attached: javax.crypto.Cipher
+[*] Module attached: javax.crypto.Mac
+[*] Module attached: android.security.keystore.KeyGenParameterSpec$Builder
+[*] Module attached: javax.crypto.spec.IvParameterSpec
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): SVg1Rjg0TEhaaGYySW5QVmQ4bFU=
+[*] MessageDigest.digest output (Base64): +LMUHnYPlSI9J/RyxH59M/iGhP0BtpYbykKmeyaDVW8=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfahLEimAoz2t01p3uMziiLOl/fHTDM0YDOhBRuiBARsV4UvxG2LdNgoIGLrtCzWE0J5APC2em4JlvR8EEEFMoA==
+[*] MessageDigest.digest output (Base64): pLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BA=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1/TMabLkDpCjiupacAlP7xNi0I1JYP8bQFAHDG1xhtolSY1l4QgNRzRrvSe8liE+NPWHdjGxfx3JhTsN9x8/6Q==
+[*] MessageDigest.digest output (Base64): aPaY+B9kgr46jO65KB1M/HFRXWeT1ETRCmesu09P+8Q=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAkbFvhu7gkAW6MHSrBlpE1n4+HCFRkC5OLAjgqhkTH+/uzSfSl8ois8ZxAD2NgaTZe1M9akhYlrYkes4JECs6A==
+[*] MessageDigest.digest output (Base64): VhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIFsYyDzBi7MxCAC/oJBXK7dHjG+1aLCOkHjpoHPqTyghLpzA9BYbqvnV16mAw04vUjyYASVGJCUoI3ctBcJAeg==
+[*] MessageDigest.digest output (Base64): 7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/cs=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECyPLhWKYYUgEc+tUXfPQB4wtGS2MNvXrjwFCCnyYJifBtd2Sk7Cu+Js9DNhMTh35FftHaHu6ZrclnNBKwmbbSA==
+[*] MessageDigest.digest output (Base64): zbUXm3/BwEb+6jETaj+PAC5hgvr4iW/syLL1tatgSQA=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJ2Q5DC3cUBj4IQCiDu0s6j51up+TZAkAEcQRF6tczw90rLWXkJMAW7jr9yc92bIKgV8vDXU4lDeZHvYHduDuvg==
+[*] MessageDigest.digest output (Base64): dGG0oJz7PUHXUVlXWy52SaRFqNJ3CbDMVkpkgrfrQaM=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEluqsHEYMG1XcDfy1lCdGV0JwOmkY4r87xNuroPS2bMBTP01CEDPwWJePa75y9CrsHEKqAy8afig1dpkIPSEUhg==
+[*] MessageDigest.digest output (Base64): 3esdK3oNT6Ygi4GtgWhwfi6OnQHVXIiNPRHEzbbsvsw=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAolpIHxdSlTXLo1s6H1OCdpSj/4DyHDc8wLG9wVmLqy1lk9fz4ATVmm+/1iN2Nk8jmctUKK2MFUtlWXZBSpym97M7frGlSaQXUWyA3CqQUEuIJOmlEjKTBEiQAvpfDjCHjlV2Be4qTM6jamkJbiWtgnYPhJL6ONaGTiSPm7Byy57iaz/hbckldSOIoRhYBiMzeNoA0DiRZ9KmfSeXZ1rB8y8X5urSW+iBzf2SaOfzBvDpcoTuAaWx2DPazoOl28fP1hZ+kHUYvxbcMjttjauCFx+JII0dmuZNIwjfeG/GBb9frpSX219k1O4Wi6OEbHEr8at/XQ0y7gTikOxBn/s5wQIDAQAB
+[*] MessageDigest.digest output (Base64): rDua7X+pZ0dXFZ5tfVdWcvnZgQCUHpve/+yhMTt1eC0=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MBkxFzAVBgNVBAMMDiouZnBjb25maWcubmV0
+[*] MessageDigest.digest output (Base64): vDyXrr6kdO7fYPPwdEKZKQ==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqvpdkx2fGgQ7aRENrci6WXldntWxDd0rU633plQu3f8wiAT+zAvaVkCO8lbguDmIl8jWtdKms2L2lF+Jv89uC50t8TcctWY4Qna6+VEXZ6DypJOpgPzSC0BIKnJsn1TvjHrzmL2EoaY9FjMKAgisX0pd045Q2h6l7sooGf/oq5IqsPZAoZHWhOjmKMTWl4k42FgCniIHikTImY6iqLY4HGUDDXhiqLLeVNsZU29tlMMEVsMlWwe2fsRpIJPH+O72xLIyPfHf7EqLYEREeA8idqPeu1Wpe2xNejxnrXTcOvxxAzUv3bRUz4x3rymYew3qnPBts93n4kPpUb4dtEivhwIDAQAB
+[*] MessageDigest.digest output (Base64): DRCH3PQO4j8JB8XGeDYx8N6jaDk=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MDwxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZBbWF6b24xHDAaBgNVBAMTE0FtYXpvbiBSU0EgMjA0OCBNMDI=
+[*] MessageDigest.digest output (Base64): JtcsV7wEZpzzBPCD4k4w8g==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu0MYxlqoed4p6LVvLr6lQ88uWNMHXjdKLpWkRY9zqZKQWFlv/qquRnKgeVAtsNicjYPuEPSx3MSp+e4CMiy5dAsbcDxO9fpXegU0EVV7w2Uske8Gx4pjzyxovC5/GRlXCTviDidaU0xfOVr1jkXfDBEfAxUfjjfEbPpS0ZJlKpD3h4XHlftOWq3zCGLyoJop1nms1qT6v2dROE54KWoV3ihfJyH/9FztjR5fUo1YdhIjU2TfWZiCIrcm8fTreD4r20cDrdl5OAqCd2WH5Yj7O/uLjgd6lFmMDUVjBhn1W//1SQLljPz/JTrl+CNoT7BUczh79jILaiys9YTuAn51cwIDAQAB
+[*] MessageDigest.digest output (Base64): Y6+PTI4q9LpizZgAhvWr8DdcGS0=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MDkxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZBbWF6b24xGTAXBgNVBAMTEEFtYXpvbiBSb290IENBIDE=
+[*] MessageDigest.digest output (Base64): mcUI/VTLw5bMMla7h4Ka4A==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqvpdkx2fGgQ7aRENrci6WXldntWxDd0rU633plQu3f8wiAT+zAvaVkCO8lbguDmIl8jWtdKms2L2lF+Jv89uC50t8TcctWY4Qna6+VEXZ6DypJOpgPzSC0BIKnJsn1TvjHrzmL2EoaY9FjMKAgisX0pd045Q2h6l7sooGf/oq5IqsPZAoZHWhOjmKMTWl4k42FgCniIHikTImY6iqLY4HGUDDXhiqLLeVNsZU29tlMMEVsMlWwe2fsRpIJPH+O72xLIyPfHf7EqLYEREeA8idqPeu1Wpe2xNejxnrXTcOvxxAzUv3bRUz4x3rymYew3qnPBts93n4kPpUb4dtEivhwIDAQAB
+[*] MessageDigest.digest output (Base64): DRCH3PQO4j8JB8XGeDYx8N6jaDk=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu0MYxlqoed4p6LVvLr6lQ88uWNMHXjdKLpWkRY9zqZKQWFlv/qquRnKgeVAtsNicjYPuEPSx3MSp+e4CMiy5dAsbcDxO9fpXegU0EVV7w2Uske8Gx4pjzyxovC5/GRlXCTviDidaU0xfOVr1jkXfDBEfAxUfjjfEbPpS0ZJlKpD3h4XHlftOWq3zCGLyoJop1nms1qT6v2dROE54KWoV3ihfJyH/9FztjR5fUo1YdhIjU2TfWZiCIrcm8fTreD4r20cDrdl5OAqCd2WH5Yj7O/uLjgd6lFmMDUVjBhn1W//1SQLljPz/JTrl+CNoT7BUczh79jILaiys9YTuAn51cwIDAQAB
+[*] MessageDigest.digest output (Base64): Y6+PTI4q9LpizZgAhvWr8DdcGS0=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[+] onEnter: signature.getInstance
+  --> [0] Algorithm: SHA256withRSA
+[-] onLeave: signature.getInstance
+[+] onEnter: secretKeySpec.init
+  --> [0] Key Base64: KxPhOq57MoToohItkxqIMA==
+  --> [1] Key String: +�:�{2��-��0
+  --> [2] Algorithm: AES
+[-] onLeave: secretKeySpec.init
+[+] onEnter: IvParameterSpec.init
+  --> [0] IV Key: AAAAAAAAAAAAAAAAAAAAAA==
+[-] onLeave: IvParameterSpec.init
+[+] onEnter: IvParameterSpec.init
+  --> [0] IV Key: AAAAAAAAAAAAAAAAAAAAAA==
+  --> [1] Offset: 0
+  --> [2] Length: 16
+[-] onLeave: IvParameterSpec.init
+[+] onEnter: cipher.getInstance
+  --> [0] Algorithm: AES/CBC/PKCS7Padding
+[-] onLeave: cipher.getInstance
+[+] onEnter: cipher.getInstance
+  --> [0] Algorithm: AES/CBC/PKCS5Padding
+[-] onLeave: cipher.getInstance
+[+] onEnter: cipher.init
+  --> [0] Key: KxPhOq57MoToohItkxqIMA==
+  --> [1] Opmode: decryption
+  --> [2] Algorithm: AES/CBC/PKCS7Padding
+[-] onLeave: cipher.init
+[+] onEnter: cipher.doFinal
+  --> [0] Input Base64: MRNlnOuNmt1OFuyPEziOn4+Ghb3g1uk8ev346wuUHMUuNi7Ja4hg0rFI+OlqLlJ+gD/d1PvvWvn2ZCD/LK/W9u50DNaB4HSqQjcKbS6q3zcKFdaAkfoqXDxY/VDSH3OQMMab1Ycv+9Jl+47qITxFimPA/6l7pQlDGIoPTk+khRMoLtE3oB2pdx+aImR2iXQvvIeI1/BmlmZB8x3LPWwErpp5yTDjK/Z8pySqtYOt5gY8HXHIAjoDqwU5v0XVbtMVXU0OMmJ4WF5Xn5XH1tOX4Lp4otsL5o7gB0gl+XrYJuo=
+  --> [1] Input String: 1e�덚�N�8���������<z���
+                                               ��.6.�k�`ұH��j.R~�?����Z��d �,����t
+                                                                                  ց�t�B7
+m.��7
+ր��*\<X�P�s�0ƛՇ/��e���!<E�c���{�        C�NO��(.�7��w�"dv�t/�����f�fA��=l��y�0�+�|�$�����<q�:�9�E�n�]M2bxX^W����ӗ�x��
+                                                                                                                     ��H%�z�&�
+  --> [2] Output Base64: eyJzdGF0dXMiOiJhY3RpdmUiLCJyZWdpb24iOiJ1cyIsInNldHRpbmdzIjp7Imxhc3RLbm93bk1vY2tlZExvY2F0aW9uc0NvbGxlY3Rpb25FbmFibGVkIjp0cnVlLCJhY2NlbGVyb21ldGVyU2lnbmFsRW5hYmxlZCI6ZmFsc2UsImluc3RhbGxlZEFwcHNDb2xsZWN0aW9uTW9kZSI6ImFsbCIsImd5cm9zY29wZVNpZ25hbEVuYWJsZWQiOmZhbHNlfSwiaW50ZWdyYXRpb25JbmZvIjpbXX0=
+[-] onLeave: cipher.doFinal
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): Hww0AhU4W0i1t6KH1ul+AqMbDm70P+goF1ePEzjHMj0=
+[*] MessageDigest.digest output (Base64): ciwFk+AGi77d9a2Bh9nBZhqfTn7+Od2nc7wCmN42Rio=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MBYxFDASBgNVBAMTC2FwaS5mcGpzLmlv
+[*] MessageDigest.digest output (Base64): v6UnsUly+EpwI4bZdx+VPw==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwVxTle3a0BCXl75TW3hPmnauMi+QeXX1YIbt2GCU2QD7GuD0PiS7/1xMYwyEq98iwvatKUdTNRFP+fah/IjLfN8h+ZDJ67RfRDihOV4Wa/DoQeIslYI+Qfl4sB2QPUl2qFvaKDOiivfMT7GPPut94PZfydEj13re4Toyw3A0E32aSKWuwOB7j6bC1U+5+isL0cUPiNTVMc1HtopcPR/1/8gu2iZ/oxgznr5R/FmajRFvTUIDZm5mjMBcjIF/2ese9E27etvnK/7JxCWn+4OZy4Vt9YYi37DVUA1XyleCJg7W6Kh5FGhs25sc1qUiI4S5ySb1zhxlzMChpMpKdbWJ2QIDAQAB
+[*] MessageDigest.digest output (Base64): doLfQIBC1Uj19tnP8cXsGZ7WrIo=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MDwxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZBbWF6b24xHDAaBgNVBAMTE0FtYXpvbiBSU0EgMjA0OCBNMDM=
+[*] MessageDigest.digest output (Base64): l6pfNGUh8HCokdGYmYQ3aQ==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3+lWSjy+4zjvlN/jkdXcFsKX8H0nLz0bUJGQWNw9jTpYD2VL7t1ZtQDsa1ZQqiSyvr2EozBwyw2nGXDtveN5cWDEHT3+eZqVwBa2cvMX4toMoQDkNCa8rO6HWd8h+oSIoJBKZdeHT1ez507tybmptovaGE0kJIB6NyLBy84WAU2AQxHjbCboogUexBbbyOED7W78zSnp9XBF64SBl8t93HzY/HQslyTeVJPcQH8l9t2x07PPODliRjV1+6p/zLl9R5nsLNZdtOO6PBf9Oi+Z5YoDfpUsLPvlrNbq0M24OfroU6kANln2iZVoXoGo0mIsxWXo/f9zQ6JQwLpnk58pwIDAQAB
+[*] MessageDigest.digest output (Base64): Yq17It/+dpqVESS0qkR2LZZvwvQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwVxTle3a0BCXl75TW3hPmnauMi+QeXX1YIbt2GCU2QD7GuD0PiS7/1xMYwyEq98iwvatKUdTNRFP+fah/IjLfN8h+ZDJ67RfRDihOV4Wa/DoQeIslYI+Qfl4sB2QPUl2qFvaKDOiivfMT7GPPut94PZfydEj13re4Toyw3A0E32aSKWuwOB7j6bC1U+5+isL0cUPiNTVMc1HtopcPR/1/8gu2iZ/oxgznr5R/FmajRFvTUIDZm5mjMBcjIF/2ese9E27etvnK/7JxCWn+4OZy4Vt9YYi37DVUA1XyleCJg7W6Kh5FGhs25sc1qUiI4S5ySb1zhxlzMChpMpKdbWJ2QIDAQAB
+[*] MessageDigest.digest output (Base64): doLfQIBC1Uj19tnP8cXsGZ7WrIo=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3+lWSjy+4zjvlN/jkdXcFsKX8H0nLz0bUJGQWNw9jTpYD2VL7t1ZtQDsa1ZQqiSyvr2EozBwyw2nGXDtveN5cWDEHT3+eZqVwBa2cvMX4toMoQDkNCa8rO6HWd8h+oSIoJBKZdeHT1ez507tybmptovaGE0kJIB6NyLBy84WAU2AQxHjbCboogUexBbbyOED7W78zSnp9XBF64SBl8t93HzY/HQslyTeVJPcQH8l9t2x07PPODliRjV1+6p/zLl9R5nsLNZdtOO6PBf9Oi+Z5YoDfpUsLPvlrNbq0M24OfroU6kANln2iZVoXoGo0mIsxWXo/f9zQ6JQwLpnk58pwIDAQAB
+[*] MessageDigest.digest output (Base64): Yq17It/+dpqVESS0qkR2LZZvwvQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MB8xHTAbBgNVBAMTFGRlbW8uZmluZ2VycHJpbnQuY29t
+[*] MessageDigest.digest output (Base64): IhYBCrzV6jHrgecGfCKvMw==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzIYryEztN26fmOxMnlXQauU1LAOp/fwls9NIbcYoQsgoMKKSzElUm0Ihbj+ob2Nop/1C6MI73y9512THJvpKYaWhiU2E2cKvLuguZL8JdfXgWjECplnYbJVZUVFaWZ1bzSP5X49rebrY8t41e8N5JTkPFGVTvt6hI19nbcXkqEq+pZLtJkLTTGzQZe3iMBskji3FF/wVyUSQPRucFjg/NDGMRhIjAkg8rmK2OSWEwkkmatM4mQGE2mn3GC04jdGu1Sfpev/22ywLGvKkoP0sWa95+5bm7QTPw38LKlMPLpjT127zstzlITpW+gulmITjix9CipkwiEhia0Oqbm70/wIDAQAB
+[*] MessageDigest.digest output (Base64): ClegU/pGh6nE7kkq/HsXfwxldVI=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MDwxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZBbWF6b24xHDAaBgNVBAMTE0FtYXpvbiBSU0EgMjA0OCBNMDM=
+[*] MessageDigest.digest output (Base64): l6pfNGUh8HCokdGYmYQ3aQ==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3+lWSjy+4zjvlN/jkdXcFsKX8H0nLz0bUJGQWNw9jTpYD2VL7t1ZtQDsa1ZQqiSyvr2EozBwyw2nGXDtveN5cWDEHT3+eZqVwBa2cvMX4toMoQDkNCa8rO6HWd8h+oSIoJBKZdeHT1ez507tybmptovaGE0kJIB6NyLBy84WAU2AQxHjbCboogUexBbbyOED7W78zSnp9XBF64SBl8t93HzY/HQslyTeVJPcQH8l9t2x07PPODliRjV1+6p/zLl9R5nsLNZdtOO6PBf9Oi+Z5YoDfpUsLPvlrNbq0M24OfroU6kANln2iZVoXoGo0mIsxWXo/f9zQ6JQwLpnk58pwIDAQAB
+[*] MessageDigest.digest output (Base64): Yq17It/+dpqVESS0qkR2LZZvwvQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzIYryEztN26fmOxMnlXQauU1LAOp/fwls9NIbcYoQsgoMKKSzElUm0Ihbj+ob2Nop/1C6MI73y9512THJvpKYaWhiU2E2cKvLuguZL8JdfXgWjECplnYbJVZUVFaWZ1bzSP5X49rebrY8t41e8N5JTkPFGVTvt6hI19nbcXkqEq+pZLtJkLTTGzQZe3iMBskji3FF/wVyUSQPRucFjg/NDGMRhIjAkg8rmK2OSWEwkkmatM4mQGE2mn3GC04jdGu1Sfpev/22ywLGvKkoP0sWa95+5bm7QTPw38LKlMPLpjT127zstzlITpW+gulmITjix9CipkwiEhia0Oqbm70/wIDAQAB
+[*] MessageDigest.digest output (Base64): ClegU/pGh6nE7kkq/HsXfwxldVI=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3+lWSjy+4zjvlN/jkdXcFsKX8H0nLz0bUJGQWNw9jTpYD2VL7t1ZtQDsa1ZQqiSyvr2EozBwyw2nGXDtveN5cWDEHT3+eZqVwBa2cvMX4toMoQDkNCa8rO6HWd8h+oSIoJBKZdeHT1ez507tybmptovaGE0kJIB6NyLBy84WAU2AQxHjbCboogUexBbbyOED7W78zSnp9XBF64SBl8t93HzY/HQslyTeVJPcQH8l9t2x07PPODliRjV1+6p/zLl9R5nsLNZdtOO6PBf9Oi+Z5YoDfpUsLPvlrNbq0M24OfroU6kANln2iZVoXoGo0mIsxWXo/f9zQ6JQwLpnk58pwIDAQAB
+[*] MessageDigest.digest output (Base64): Yq17It/+dpqVESS0qkR2LZZvwvQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: secretKeySpec.init
+  --> [0] Key Base64: KxPhOq57MoToohItkxqIMA==
+  --> [1] Key String: +�:�{2��-��0
+  --> [2] Algorithm: AES
+[-] onLeave: secretKeySpec.init
+[+] onEnter: IvParameterSpec.init
+  --> [0] IV Key: AAAAAAAAAAAAAAAAAAAAAA==
+[-] onLeave: IvParameterSpec.init
+[+] onEnter: IvParameterSpec.init
+  --> [0] IV Key: AAAAAAAAAAAAAAAAAAAAAA==
+  --> [1] Offset: 0
+  --> [2] Length: 16
+[-] onLeave: IvParameterSpec.init
+[+] onEnter: cipher.getInstance
+  --> [0] Algorithm: AES/CBC/PKCS7Padding
+[-] onLeave: cipher.getInstance
+[+] onEnter: cipher.getInstance
+  --> [0] Algorithm: AES/CBC/PKCS5Padding
+[-] onLeave: cipher.getInstance
+[+] onEnter: cipher.init
+  --> [0] Key: KxPhOq57MoToohItkxqIMA==
+  --> [1] Opmode: decryption
+  --> [2] Algorithm: AES/CBC/PKCS7Padding
+[-] onLeave: cipher.init
+[+] onEnter: cipher.doFinal
+  --> [0] Input Base64: MRNlnOuNmt1OFuyPEziOn4+Ghb3g1uk8ev346wuUHMUuNi7Ja4hg0rFI+OlqLlJ+gD/d1PvvWvn2ZCD/LK/W9u50DNaB4HSqQjcKbS6q3zcKFdaAkfoqXDxY/VDSH3OQMMab1Ycv+9Jl+47qITxFimPA/6l7pQlDGIoPTk+khRMoLtE3oB2pdx+aImR2iXQvvIeI1/BmlmZB8x3LPWwErpp5yTDjK/Z8pySqtYOt5gY8HXHIAjoDqwU5v0XVbtMVXU0OMmJ4WF5Xn5XH1tOX4Lp4otsL5o7gB0gl+XrYJuo=
+  --> [1] Input String: 1e�덚�N�8���������<z���
+                                               ��.6.�k�`ұH��j.R~�?����Z��d �,����t
+                                                                                  ց�t�B7
+m.��7
+ր��*\<X�P�s�0ƛՇ/��e���!<E�c���{�        C�NO��(.�7��w�"dv�t/�����f�fA��=l��y�0�+�|�$�����<q�:�9�E�n�]M2bxX^W����ӗ�x��
+                                                                                                                     ��H%�z�&�
+  --> [2] Output Base64: eyJzdGF0dXMiOiJhY3RpdmUiLCJyZWdpb24iOiJ1cyIsInNldHRpbmdzIjp7Imxhc3RLbm93bk1vY2tlZExvY2F0aW9uc0NvbGxlY3Rpb25FbmFibGVkIjp0cnVlLCJhY2NlbGVyb21ldGVyU2lnbmFsRW5hYmxlZCI6ZmFsc2UsImluc3RhbGxlZEFwcHNDb2xsZWN0aW9uTW9kZSI6ImFsbCIsImd5cm9zY29wZVNpZ25hbEVuYWJsZWQiOmZhbHNlfSwiaW50ZWdyYXRpb25JbmZvIjpbXX0=
+[-] onLeave: cipher.doFinal
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA-256
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): SVg1Rjg0TEhaaGYySW5QVmQ4bFU=
+[*] MessageDigest.digest output (Base64): +LMUHnYPlSI9J/RyxH59M/iGhP0BtpYbykKmeyaDVW8=
+[+] onEnter: secretKeySpec.init
+  --> [0] Key Base64: KxPhOq57MoToohItkxqIMA==
+  --> [1] Key String: +�:�{2��-��0
+  --> [2] Algorithm: AES
+[-] onLeave: secretKeySpec.init
+[+] onEnter: IvParameterSpec.init
+  --> [0] IV Key: AAAAAAAAAAAAAAAAAAAAAA==
+[-] onLeave: IvParameterSpec.init
+[+] onEnter: IvParameterSpec.init
+  --> [0] IV Key: AAAAAAAAAAAAAAAAAAAAAA==
+  --> [1] Offset: 0
+  --> [2] Length: 16
+[-] onLeave: IvParameterSpec.init
+[+] onEnter: cipher.getInstance
+  --> [0] Algorithm: AES/CBC/PKCS7Padding
+[-] onLeave: cipher.getInstance
+[+] onEnter: cipher.getInstance
+  --> [0] Algorithm: AES/CBC/PKCS5Padding
+[-] onLeave: cipher.getInstance
+[+] onEnter: cipher.init
+  --> [0] Key: KxPhOq57MoToohItkxqIMA==
+  --> [1] Opmode: decryption
+  --> [2] Algorithm: AES/CBC/PKCS7Padding
+[-] onLeave: cipher.init
+[+] onEnter: cipher.doFinal
+  --> [0] Input Base64: MRNlnOuNmt1OFuyPEziOn4+Ghb3g1uk8ev346wuUHMUuNi7Ja4hg0rFI+OlqLlJ+gD/d1PvvWvn2ZCD/LK/W9u50DNaB4HSqQjcKbS6q3zcKFdaAkfoqXDxY/VDSH3OQMMab1Ycv+9Jl+47qITxFimPA/6l7pQlDGIoPTk+khRMoLtE3oB2pdx+aImR2iXQvvIeI1/BmlmZB8x3LPWwErpp5yTDjK/Z8pySqtYOt5gY8HXHIAjoDqwU5v0XVbtMVXU0OMmJ4WF5Xn5XH1tOX4Lp4otsL5o7gB0gl+XrYJuo=
+  --> [1] Input String: 1e�덚�N�8���������<z���
+                                               ��.6.�k�`ұH��j.R~�?����Z��d �,����t
+                                                                                  ց�t�B7
+m.��7
+ր��*\<X�P�s�0ƛՇ/��e���!<E�c���{�        C�NO��(.�7��w�"dv�t/�����f�fA��=l��y�0�+�|�$�����<q�:�9�E�n�]M2bxX^W����ӗ�x��
+                                                                                                                     ��H%�z�&�
+  --> [2] Output Base64: eyJzdGF0dXMiOiJhY3RpdmUiLCJyZWdpb24iOiJ1cyIsInNldHRpbmdzIjp7Imxhc3RLbm93bk1vY2tlZExvY2F0aW9uc0NvbGxlY3Rpb25FbmFibGVkIjp0cnVlLCJhY2NlbGVyb21ldGVyU2lnbmFsRW5hYmxlZCI6ZmFsc2UsImluc3RhbGxlZEFwcHNDb2xsZWN0aW9uTW9kZSI6ImFsbCIsImd5cm9zY29wZVNpZ25hbEVuYWJsZWQiOmZhbHNlfSwiaW50ZWdyYXRpb25JbmZvIjpbXX0=
+[-] onLeave: cipher.doFinal
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MBYxFDASBgNVBAMTC2FwaS5mcGpzLmlv
+[*] MessageDigest.digest output (Base64): v6UnsUly+EpwI4bZdx+VPw==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwVxTle3a0BCXl75TW3hPmnauMi+QeXX1YIbt2GCU2QD7GuD0PiS7/1xMYwyEq98iwvatKUdTNRFP+fah/IjLfN8h+ZDJ67RfRDihOV4Wa/DoQeIslYI+Qfl4sB2QPUl2qFvaKDOiivfMT7GPPut94PZfydEj13re4Toyw3A0E32aSKWuwOB7j6bC1U+5+isL0cUPiNTVMc1HtopcPR/1/8gu2iZ/oxgznr5R/FmajRFvTUIDZm5mjMBcjIF/2ese9E27etvnK/7JxCWn+4OZy4Vt9YYi37DVUA1XyleCJg7W6Kh5FGhs25sc1qUiI4S5ySb1zhxlzMChpMpKdbWJ2QIDAQAB
+[*] MessageDigest.digest output (Base64): doLfQIBC1Uj19tnP8cXsGZ7WrIo=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: MD5
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MDwxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKEwZBbWF6b24xHDAaBgNVBAMTE0FtYXpvbiBSU0EgMjA0OCBNMDM=
+[*] MessageDigest.digest output (Base64): l6pfNGUh8HCokdGYmYQ3aQ==
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3+lWSjy+4zjvlN/jkdXcFsKX8H0nLz0bUJGQWNw9jTpYD2VL7t1ZtQDsa1ZQqiSyvr2EozBwyw2nGXDtveN5cWDEHT3+eZqVwBa2cvMX4toMoQDkNCa8rO6HWd8h+oSIoJBKZdeHT1ez507tybmptovaGE0kJIB6NyLBy84WAU2AQxHjbCboogUexBbbyOED7W78zSnp9XBF64SBl8t93HzY/HQslyTeVJPcQH8l9t2x07PPODliRjV1+6p/zLl9R5nsLNZdtOO6PBf9Oi+Z5YoDfpUsLPvlrNbq0M24OfroU6kANln2iZVoXoGo0mIsxWXo/f9zQ6JQwLpnk58pwIDAQAB
+[*] MessageDigest.digest output (Base64): Yq17It/+dpqVESS0qkR2LZZvwvQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwVxTle3a0BCXl75TW3hPmnauMi+QeXX1YIbt2GCU2QD7GuD0PiS7/1xMYwyEq98iwvatKUdTNRFP+fah/IjLfN8h+ZDJ67RfRDihOV4Wa/DoQeIslYI+Qfl4sB2QPUl2qFvaKDOiivfMT7GPPut94PZfydEj13re4Toyw3A0E32aSKWuwOB7j6bC1U+5+isL0cUPiNTVMc1HtopcPR/1/8gu2iZ/oxgznr5R/FmajRFvTUIDZm5mjMBcjIF/2ese9E27etvnK/7JxCWn+4OZy4Vt9YYi37DVUA1XyleCJg7W6Kh5FGhs25sc1qUiI4S5ySb1zhxlzMChpMpKdbWJ2QIDAQAB
+[*] MessageDigest.digest output (Base64): doLfQIBC1Uj19tnP8cXsGZ7WrIo=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt3+lWSjy+4zjvlN/jkdXcFsKX8H0nLz0bUJGQWNw9jTpYD2VL7t1ZtQDsa1ZQqiSyvr2EozBwyw2nGXDtveN5cWDEHT3+eZqVwBa2cvMX4toMoQDkNCa8rO6HWd8h+oSIoJBKZdeHT1ez507tybmptovaGE0kJIB6NyLBy84WAU2AQxHjbCboogUexBbbyOED7W78zSnp9XBF64SBl8t93HzY/HQslyTeVJPcQH8l9t2x07PPODliRjV1+6p/zLl9R5nsLNZdtOO6PBf9Oi+Z5YoDfpUsLPvlrNbq0M24OfroU6kANln2iZVoXoGo0mIsxWXo/f9zQ6JQwLpnk58pwIDAQAB
+[*] MessageDigest.digest output (Base64): Yq17It/+dpqVESS0qkR2LZZvwvQ=
+[+] onEnter: messageDigest.getInstance
+  --> [0] Algorithm: SHA1
+[-] onLeave: messageDigest.getInstance
+[*] MessageDigest.update called with input (Base64): MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsniAccp41eNxr0eAUHR9btjXiHb0mWj3WCFg+XSEAS+sAi2G06BDek6ypNA2ugG+jdtIyAcXNkz07ogjxz7rN/W1GfhJaLDe17l2OB1hnqT+gjal5UpW5EXh+f20Fvp02pybNTkv+rAgUAZsetCAsqb5r+xHGY9QOAfcooc5WPi61an5SGcwlu6UeF5viaNRwDCGZqFFZrpU66PDkflI3P/R6DAtfS10cDXXiCT3nsRZbrtzhxfyMkYouEP6tx2qyrTynyQOLUv3cVxeaf/qlQLLOIquUDhv2/stYhvFxx5U4XfgZ8gPnIcj1j9AIH8ggMSATD47JCaOBK5smsiqDQIDAQAB
+[*] MessageDigest.digest output (Base64): QIN33WddQIcN4iqJBUUodfI23tQ=
+[Android Emulator 5554::com.fingerprintjs.android.fpjs_pro_demo ]->                                                        
+[Android Emulator 5554::com.fingerprintjs.android.fpjs_pro_demo ]->
+
+
+
+
+
+
+ 
