@@ -59,6 +59,17 @@ const bytesToBase64 = (bytes) => {
     return null;
 }
 
+const base64tobytes = (base64) =>  {
+    if (base64 !== null) {
+        try {
+            return BASE64.getDecoder().decode(base64);
+        } catch (e){
+            console.log(e);
+            console.log("WHAT THE HECK");
+        }
+    }
+}
+
 const Base64ToHex = (base64) => {
     const bytes = BASE64.getDecoder().decode(base64);
     let hexData = "";
@@ -389,12 +400,18 @@ setTimeout(function () {
                     const inputString = bytesToString(arg0);
                     const output = this.doFinal.overload("[B").call(this, arg0);
                     const outputBase64 = bytesToBase64(output);
+                   // const targetValue = "eyJzdGF0dXMiOiJhY3RpdmUiLCJyZWdpb24iOiJ1cyIsInNldHRpbmdzIjp7Imxhc3RLbm93bk1vY2tlZExvY2F0aW9uc0NvbGxlY3Rpb25FbmFibGVkIjp0cnVlLCJhY2NlbGVyb21ldGVyU2lnbmFsRW5hYmxlZCI6ZmFsc2UsImluc3RhbGxlZEFwcHNDb2xsZWN0aW9uTW9kZSI6ImFsbCIsImd5cm9zY29wZVNpZ25hbEVuYWJsZWQiOmZhbHNlfSwiaW50ZWdyYXRpb25JbmZvIjpbXX0=";
+                    const spoofedOutputBase64 = "eyJzdGF0dXMiOiJhY3RpdmUiLCJyZWdpb24iOiJ1cyIsInNldHRpbmdzIjp7Imxhc3RLbm93bk1vY2tlZExvY2F0aW9uc0NvbGxlY3Rpb25FbmFibGVkIjp0cnVlLCJhY2NlbGVyb21ldGVyU2lnbmFsRW5hYmxlZCI6dHJ1ZSwiaW5zdGFsbGVkQXBwc0NvbGxlY3Rpb25Nb2RlIjoiYWxsIiwiZ3lyb3Njb3BlU2lnbmFsRW5hYmxlZCI6dHJ1ZX0sImludGVncmF0aW9uSW5mbyI6W119Cg==";
+                    console.log("Hello!");
+                    //console.log(spoofedOutputBase64);
+                    const finalOutput = base64tobytes(spoofedOutputBase64);
+                    //console.log(finalOutput);
                     showVariable("cipher.doFinal", [
                         {key: "Input Base64", value: inputBase64},
                         {key: "Input String", value: inputString},
-                        {key: "Output Base64", value: outputBase64}
+                        {key: "Output Base64", value: spoofedOutputBase64}
                     ], colorKey);
-                    return output;
+                    return finalOutput;
                 };
 
 
