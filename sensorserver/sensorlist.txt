@@ -1,0 +1,87 @@
+Total 13 h/w sensors, 13 running 0 disabled clients:
+mc3419                             (handle=0x00000001)  active-count = 1; sampling_period(ms) = {20.0}, selected = 20.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+tsl2540                            (handle=0x00000003)  active-count = 1; sampling_period(ms) = {250.0}, selected = 250.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+SIGNIFICANT_MOTION                 (handle=0x00000008)  active-count = 3; sampling_period(ms) = {1.0, 1.0, 1.0}, selected = 1.00 ms; batching_period(ms) = {0.0, 0.0, 0.0}, selected = 0.00 ms
+SX9325 Grip Sensor for wifi        (handle=0x0000000d)  active-count = 1; sampling_period(ms) = {200.0}, selected = 200.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+Sensor List:
+0x00000001) mc3419                    | Memsic          | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+	continuous | minRate=50.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (4500, 3000) events | non-wakeUp | 
+0x00000002) mmc5603                   | Memsic          | ver: 1 | type: android.sensor.magnetic_field(2) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=50.00Hz | FIFO (max,reserved) = (4500, 600) events | non-wakeUp | 
+0x00000003) tsl2540                   | AMS             | ver: 1 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | no batching | non-wakeUp | 
+0x00000004) GRAVITY                   | MTK             | ver: 1 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000000
+	continuous | minRate=50.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x00000005) LINEARACCEL               | MTK             | ver: 1 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000000
+	continuous | minRate=50.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x00000006) ROTATION_VECTOR           | MTK             | ver: 1 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000000
+	continuous | minRate=50.00Hz | maxRate=50.00Hz | no batching | non-wakeUp | 
+0x00000007) GAME_ROTATION_VECTOR      | MTK             | ver: 1 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | minRate=50.00Hz | maxRate=50.00Hz | no batching | non-wakeUp | 
+0x00000008) SIGNIFICANT_MOTION        | MTK             | ver: 1 | type: android.sensor.significant_motion(17) | perm: n/a | flags: 0x00000005
+	one-shot | maxDelay=0us | minDelay=-1us | no batching | wakeUp | 
+0x00000009) STEP_DETECTOR             | MTK             | ver: 1 | type: android.sensor.step_detector(18) | perm: android.permission.ACTIVITY_RECOGNITION | flags: 0x00000006
+	special-trigger | maxDelay=0us | minDelay=0us | FIFO (max,reserved) = (4500, 100) events | non-wakeUp | 
+0x0000000a) STEP_COUNTER              | MTK             | ver: 1 | type: android.sensor.step_counter(19) | perm: android.permission.ACTIVITY_RECOGNITION | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | no batching | non-wakeUp | 
+0x0000000b) GEOMAGNETIC_ROTATION_VECTOR | MTK             | ver: 1 | type: android.sensor.geomagnetic_rotation_vector(20) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.00Hz | maxRate=50.00Hz | no batching | non-wakeUp | 
+0x0000000c) SX9325 Grip Sensor        | SEMTECH         | ver: 1025 | type: com.samsung.sensor.grip(65560) | perm: n/a | flags: 0x00000003
+	on-change | maxDelay=0us | minDelay=0us | no batching | wakeUp | 
+0x0000000d) SX9325 Grip Sensor for wifi | SEMTECH         | ver: 1 | type: com.samsung.sensor.grip_wifi(65575) | perm: n/a | flags: 0x00000003
+	on-change | maxDelay=0us | minDelay=0us | no batching | wakeUp | 
+0x5f617273) Screen Orientation Sensor | Samsung Electronics | ver: 3 | type: android.sensor.device_orientation(27) | perm: n/a | flags: 0x00000002
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | 
+0x5f6d7273) Motion Sensor             | Samsung Electronics | ver: 1 | type:                     (65559) | perm: n/a | flags: 0x00000002
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | 
+0x79707232) Orientation Sensor        | Samsung Electronics | ver: 1 | type: android.sensor.orientation(3) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=50.00Hz | no batching | non-wakeUp | 
+
+
+Properties
+avd.ini.displayname              Medium Phone API 31
+avd.ini.encoding                 UTF-8
+AvdId                            Medium_Phone_API_31
+disk.dataPartition.size          6442450944
+fastboot.chosenSnapshotFile      
+fastboot.forceChosenSnapshotBoot no
+fastboot.forceColdBoot           no
+fastboot.forceFastBoot           yes
+hw.accelerometer                 yes
+hw.arc                           false
+hw.audioInput                    yes
+hw.battery                       yes
+hw.camera.back                   virtualscene
+hw.camera.front                  emulated
+hw.cpu.ncore                     4
+hw.device.hash2                  MD5:3db3250dab5d0d93b29353040181c7e9
+hw.device.manufacturer           Generic
+hw.device.name                   medium_phone
+hw.dPad                          no
+hw.gps                           yes
+hw.gpu.enabled                   yes
+hw.gpu.mode                      auto
+hw.initialOrientation            portrait
+hw.keyboard                      yes
+hw.lcd.density                   420
+hw.lcd.height                    2400
+hw.lcd.width                     1080
+hw.mainKeys                      no
+hw.ramSize                       2048
+hw.sdCard                        yes
+hw.sensors.orientation           yes
+hw.sensors.proximity             yes
+hw.trackBall                     no
+image.androidVersion.api         31
+image.sysdir.1                   system-images/android-31/google_apis_playstore/x86_64/
+PlayStore.enabled                true
+runtime.network.latency          none
+runtime.network.speed            full
+showDeviceFrame                  no
+skin.dynamic                     yes
+skin.path.backup                 _no_skin
+tag.display                      Google Play
+tag.displaynames                 Google Play
+tag.id                           google_apis_playstore
+tag.ids                          google_apis_playstore
+vm.heapSize                      256
