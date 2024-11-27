@@ -5,8 +5,15 @@ import json
 import threading
 import telnetlib
 from time import sleep
+import argparse 
+
+parser = argparse.ArgumentParser(description="middleware to inject sensor data into emulator")
+parser.add_argument("--port", type=int, default=5554, help="port for the emulator console, defaults to 5554")
+args = parser.parse_args()
+
 EMULATOR_HOST = "localhost"
-EMULATOR_PORT = 5554
+EMULATOR_PORT = args.port
+
 def send_console_command(command):
     try:
         with telnetlib.Telnet(EMULATOR_HOST, EMULATOR_PORT) as tn:
