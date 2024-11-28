@@ -1,0 +1,11 @@
+[SM T220::Gadget ]-> [JAVA] Reflection called: getBoolean
+[JAVA] Reflection called: getEmojiConsistencySet
+[JAVA] Reflection called: getBoolean
+[JAVA] Reflection called: getBatteryCapacity
+[JAVA] Reflection called: getAttributionTag
+Settings.Secure.getString called with key: android_id
+Result: b75a526553a083d5
+
+getSensorList called with type: 1
+getSensorList called with type: 4
+getSensorList called with type: -1

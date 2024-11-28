@@ -1,3 +1,6 @@
 frida -U -f com.fingerprintjs.android.fpjs_pro_demo -l list_classes_settings.js
 
 replace list_classes_settings with whatever script you're using.
+
+frida -U -n Gadget -l frida/crypto/crypto_interceptor.js
+<- for patched files
